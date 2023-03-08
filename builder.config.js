@@ -8,8 +8,8 @@
 // URL options can override the options below.
 // Options set through the menu can override both until the page is refreshed.
 options = {
-    username: 'Discord Bot',
-    avatar: 'https://cdn.discordapp.com/embed/avatars/1.png',
+    username: 'BuRaK-bOt',
+    avatar: 'https://cdn.discordapp.com/avatars/1048047577049858138/fe8777c55d86f9749de51de3f6f77bb4.webp?size=128',
     verified: false,
     noUser: false,
     data: null,
