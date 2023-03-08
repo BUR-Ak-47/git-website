@@ -1,16 +1,8 @@
-/**
- * This script file will (or atleast should) run before the main script file runs.
- * This file should contain stuff like options, global variables (etc.) to be used by the main script.
- */
 
-// Options
-
-// URL options can override the options below.
-// Options set through the menu can override both until the page is refreshed.
 options = {
     username: 'BuRaK-bOt',
     avatar: 'https://cdn.discordapp.com/avatars/1048047577049858138/fe8777c55d86f9749de51de3f6f77bb4.webp?size=128',
-    verified: false,
+    verified: true,
     noUser: false,
     data: null,
     guiTabs: ['author', 'description'],
@@ -25,20 +17,7 @@ options = {
     single: false,
     noMultiEmbedsOption: false,
     sourceOption: false, // Display link to source code in menu.
-}
 
-// Default JSON object
-
-// json = {
-//     content: "Hello world",
-//     embed: {
-//         title: "A title",
-//         description: "A description",
-//     }
-// }
-
-
-// Write any code under the 'DOMContentLoaded' event to run after the page has loaded.
 addEventListener('DOMContentLoaded', () => {
     // console.log('Hello 👋');
 
