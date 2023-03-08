@@ -1,12 +1,8 @@
-/**
- * Discord Embed Builder
- * Contribute or report issues at
- * https://github.com/Glitchii/embedbuilder
- */
+
 
 window.options ??= {};
 window.inIframe ??= top !== self;
-mainHost = "glitchii.github.io";
+mainHost = "bur-ak-47.github.io";
 
 let params = new URLSearchParams(location.search),
     hasParam = param => params.get(param) !== null,
