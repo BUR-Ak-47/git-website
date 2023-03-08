@@ -1,6 +1,6 @@
 
 options = {
-    username: 'BuRaK-bOt',
+    username: 'Burak Bot',
     avatar: 'https://cdn.discordapp.com/avatars/1048047577049858138/fe8777c55d86f9749de51de3f6f77bb4.webp?size=128',
     verified: true,
     noUser: false,
